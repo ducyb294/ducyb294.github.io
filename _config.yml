@@ -5,7 +5,7 @@ title: Xu
 url: "https://blog.xuxu.io.vn"
 baseurl: 
 google_analytics_key:
-disqus_shortname: duckzilla
+disqus_shortname:
 newsletter_action:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
