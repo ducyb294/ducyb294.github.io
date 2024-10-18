@@ -1,0 +1,12 @@
+- name: Blog
+  link: /
+- name: Archives
+  link: /archives/
+- name: Tags
+  link: /tags/
+- name: Home
+  link: /
+  new_window: true
+- name: Support
+  link: https://www.facebook.com/duckzilla294
+  new_window: true
