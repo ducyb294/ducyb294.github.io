@@ -19,7 +19,7 @@ mà còn là biểu tượng cho chất lượng giáo dục tỉnh nhà.
 Và điều đặc biệt là, trong tương lai, Phú Đức mong muốn trở thành một lập trình viên máy tính, để góp phần phát triển công nghệ tại Việt Nam.
 
 Vậy, nếu bạn cũng đang muốn trở thành lập trình viên giống với quán quân trẻ của Đường lên đỉnh Olympia, và đang thắc mắc **“Muốn làm lập trình viên thì học ngành gì?”**, thì đừng lo, Xu sẽ giúp bạn giải quyết bài toán này một cách dễ dàng!
-## 1. Khoa Học Máy Tính
+<h2 id="khoa-hoc-may-tinh">1. Khoa Học Máy Tính</h2>
 Để trở thành một lập trình viên xuất sắc, bạn không thể bỏ qua **khoa học máy tính**. Đây là ngành học giúp bạn nắm vững cấu trúc dữ liệu, thuật toán và ngôn ngữ lập trình.
 
 Sinh viên cũng sẽ được tìm hiểu sâu về các khái niệm như học máy (machine learning), trí tuệ nhân tạo (artificial intelligence), và phân tích dữ liệu lớn (big data analytics). **Đại học FPT** và **Đại học Hoa Sen** là những nơi nổi bật trong việc đào tạo Khoa Học Máy Tính.

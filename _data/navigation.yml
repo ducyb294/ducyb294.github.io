@@ -1,7 +1,7 @@
 - name: Blog
   link: /
-- name: Archives
-  link: /archives/
+- name: Categories
+  link: /categories/
 - name: Tags
   link: /tags/
 - name: Home
