@@ -10,6 +10,7 @@ type: Document
 ---
 
 A maintained collection of **useful** & **free** unity scripts / libraries / plugins and extensions.
+
 Navigation:
 - [GameObjects & Transforms](#gameobjects--transforms)
 - [Movement & Animation](#movement--animation)
