@@ -1,9 +1,9 @@
 ﻿---
-title: CSharp - Simple method to log a line of code
+title: CSharp simple method to log a line of code
 categories:
   - Sharing
   - CSharp
-description: CSharp Simple method to log a line of code
+description: CSharp, Simple method to log a line of code
 author: xuxu
 tags: [Sharing, CSharp]
 type: Document
