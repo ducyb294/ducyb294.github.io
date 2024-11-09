@@ -9,7 +9,7 @@ tags: [Sharing, C#]
 type: Document
 ---
 
-Put this method anywhere in your code:
+Put this method anywhere in your code: 
 
 ```csharp
 public static void LogCaller(
