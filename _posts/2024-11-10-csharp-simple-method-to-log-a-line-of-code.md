@@ -2,10 +2,10 @@
 title: [C#] Simple method to log a line of code
 categories:
   - Sharing
-  - C#
+  - CSharp
 description: [C#] Simple method to log a line of code
 author: xuxu
-tags: [Sharing, C#]
+tags: [Sharing, CSharp]
 type: Document
 ---
 
