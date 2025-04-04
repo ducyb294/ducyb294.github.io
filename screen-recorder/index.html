@@ -16,6 +16,7 @@
             <li class="breadcrumb-item active" aria-current="page"><h1>Screen Recording</h1></li>
         </ol>
     </nav>
+
     <div class="alert alert-light" role="alert">
         <button type="button" class="btn btn-primary btn-lg" id="start">
             Start Recording
@@ -24,11 +25,18 @@
             Stop Recording
         </button>
     </div>
-
-
-    <video autoplay></video>
+    <div class="alert alert-light" role="alert" id="download" style="display:none;">
+        <a class="btn btn-success btn-lg mt-3" download="recording.mp4" style="color:white" id="downloadBtn">
+            Download Video
+        </a><br/><br/>
+        <div class="card-body p-0">
+            <div class="embed-responsive embed-responsive-16by9">
+                <video id="preview" class="embed-responsive-item" autoplay controls></video>
+            </div>
+        </div>
+    </div>
 </div>
-
+<br/><br/><br/>
 </body>
 <script src="index.js"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
