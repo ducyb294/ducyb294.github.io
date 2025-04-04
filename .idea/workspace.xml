@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d90aa240-9b9f-49aa-bbf0-d7248d9412fb" name="Changes" comment="update UI">
+    <list default="true" id="d90aa240-9b9f-49aa-bbf0-d7248d9412fb" name="Changes" comment="update layout">
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/screen-recorder/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/screen-recorder/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/screen-recorder/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/screen-recorder/index.js" afterDir="false" />
@@ -34,6 +35,9 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2vFYcSh4L8GHjknklb1bi3wzAO2" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -64,7 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1743742367327</updated>
       <workItem from="1743742368423" duration="238000" />
-      <workItem from="1743742737350" duration="1983000" />
+      <workItem from="1743742737350" duration="2530000" />
     </task>
     <task id="LOCAL-00001" summary="update project">
       <option name="closed" value="true" />
@@ -82,7 +86,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743743078615</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update layout">
+      <option name="closed" value="true" />
+      <created>1743744761081</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1743744761081</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,6 +106,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="update project" />
     <MESSAGE value="update UI" />
-    <option name="LAST_COMMIT_MESSAGE" value="update UI" />
+    <MESSAGE value="update layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="update layout" />
   </component>
 </project>

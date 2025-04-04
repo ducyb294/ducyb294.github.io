@@ -19,9 +19,24 @@ async function startRecording() {
         const videoURL = URL.createObjectURL(completeBlob);
         video.src = videoURL;
 
+        const now = new Date();
+        const pad = n => n.toString().padStart(2, '0');
+
+        const day = pad(now.getDate());
+        const month = pad(now.getMonth() + 1);
+        const year = now.getFullYear();
+        const hours = pad(now.getHours());
+        const minutes = pad(now.getMinutes());
+        const seconds = pad(now.getSeconds());
+
+        const timestamp = `${day}-${month}-${year}_${hours}-${minutes}-${seconds}`;
+        const filename = `recording-${timestamp}.mp4`;
+
         downloadBtn.href = videoURL;
+        downloadBtn.download = filename;
         downloadElement.style.display = "block";
     };
+
 
     recorder.start();
 }

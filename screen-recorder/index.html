@@ -11,27 +11,30 @@
 
 <body><br/><br/><br/>
 <div class="container">
-    <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item active" aria-current="page"><h1>Screen Recording</h1></li>
+    <div class="card">
+        <ol class="breadcrumb card-header">
+            <li class="breadcrumb-item"><a href="/">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Screen Recording</li>
         </ol>
-    </nav>
+        <div class="card-body">
 
-    <div class="alert alert-light" role="alert">
-        <button type="button" class="btn btn-primary btn-lg" id="start">
-            Start Recording
-        </button>
-        <button type="button" class="btn btn-primary btn-lg" id="stop" disabled>
-            Stop Recording
-        </button>
-    </div>
-    <div class="alert alert-light" role="alert" id="download" style="display:none;">
-        <a class="btn btn-success btn-lg mt-3" download="recording.mp4" style="color:white" id="downloadBtn">
-            Download Video
-        </a><br/><br/>
-        <div class="card-body p-0">
-            <div class="embed-responsive embed-responsive-16by9">
-                <video id="preview" class="embed-responsive-item" autoplay controls></video>
+            <div class="alert alert-light" role="alert">
+                <button type="button" class="btn btn-primary btn-lg" id="start">
+                    Start Recording
+                </button>
+                <button type="button" class="btn btn-primary btn-lg" id="stop" disabled>
+                    Stop Recording
+                </button>
+            </div>
+            <div class="alert alert-light" role="alert" id="download" style="display:none;">
+                <a class="btn btn-success btn-lg mt-3" download="recording.mp4" style="color:white" id="downloadBtn">
+                    Download Video
+                </a><br/><br/>
+                <div class="card-body p-0">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <video id="preview" class="embed-responsive-item" autoplay controls></video>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
