@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d90aa240-9b9f-49aa-bbf0-d7248d9412fb" name="Changes" comment="finish screen recording UI">
+    <list default="true" id="d90aa240-9b9f-49aa-bbf0-d7248d9412fb" name="Changes" comment="update recorder with system audio">
+      <change afterPath="$PROJECT_DIR$/images/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qr-code-generator/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screen-recorder/favicon.ico" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/screen-recorder/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/screen-recorder/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screen-recorder/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/screen-recorder/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1743742367327</updated>
       <workItem from="1743742368423" duration="238000" />
-      <workItem from="1743742737350" duration="3040000" />
+      <workItem from="1743742737350" duration="4607000" />
     </task>
     <task id="LOCAL-00001" summary="update project">
       <option name="closed" value="true" />
@@ -101,7 +105,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743745354613</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update recorder with system audio">
+      <option name="closed" value="true" />
+      <created>1743745950318</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1743745950318</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,12 +121,24 @@
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="update project" />
     <MESSAGE value="update UI" />
     <MESSAGE value="update layout" />
     <MESSAGE value="finish screen recording UI" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish screen recording UI" />
+    <MESSAGE value="update recorder with system audio" />
+    <option name="LAST_COMMIT_MESSAGE" value="update recorder with system audio" />
   </component>
 </project>
