@@ -14,6 +14,21 @@ body {
     color: rgba(255, 255, 255, 0.6);
 }
 
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+a {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 30px;
+    text-decoration: none;
+    margin: 10px;
+}
+
 h2 {
     font-size: 50px;
 }
