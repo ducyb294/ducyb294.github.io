@@ -4,7 +4,127 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d90aa240-9b9f-49aa-bbf0-d7248d9412fb" name="Changes" comment="qr code generator">
+    <list default="true" id="d90aa240-9b9f-49aa-bbf0-d7248d9412fb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/truyen/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/bg_dark.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_000.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_001.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_002.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_003.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_004.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_005.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_006.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_007.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_008.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_009.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_010.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_011.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_012.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_013.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_014.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_015.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_016.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_017.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_018.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_019.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_020.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_021.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_022.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_024.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_025.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_026.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_027.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_028.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_029.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_030.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_031.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_032.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_033.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_034.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_035.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_036.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_037.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_038.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_039.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_040.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_041.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_042.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_043.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_044.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_045.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_046.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_047.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_048.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_049.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_050.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_051.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_052.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_053.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_054.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_055.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_056.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_057.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_058.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_059.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_060.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_061.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_062.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_063.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_064.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_065.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_066.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_067.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_068.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_069.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_070.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_071.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_072.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_073.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_074.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_075.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_076.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_077.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_078.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_079.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_080.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_081.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_082.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_083.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_084.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_085.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_086.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_087.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_088.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_089.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_090.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_091.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_092.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_093.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_094.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_095.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_096.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_097.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_098.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_099.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_100.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_101.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_102.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_103.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_104.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_105.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_106.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_107.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_108.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_109.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_110.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_111.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_112.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index_split_113.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/page_styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -43,20 +163,20 @@
     <option name="openDirectoriesWithSingleClick" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -66,7 +186,8 @@
       <option name="presentableId" value="Default" />
       <updated>1743742367327</updated>
       <workItem from="1743742368423" duration="238000" />
-      <workItem from="1743742737350" duration="5145000" />
+      <workItem from="1743742737350" duration="5678000" />
+      <workItem from="1744091084700" duration="287000" />
     </task>
     <task id="LOCAL-00001" summary="update project">
       <option name="closed" value="true" />
@@ -116,7 +237,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743747425636</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update index">
+      <option name="closed" value="true" />
+      <created>1743748074209</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1743748074209</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +272,7 @@
     <MESSAGE value="finish screen recording UI" />
     <MESSAGE value="update recorder with system audio" />
     <MESSAGE value="qr code generator" />
-    <option name="LAST_COMMIT_MESSAGE" value="qr code generator" />
+    <MESSAGE value="update index" />
+    <option name="LAST_COMMIT_MESSAGE" value="update index" />
   </component>
 </project>
