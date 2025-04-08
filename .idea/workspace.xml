@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d90aa240-9b9f-49aa-bbf0-d7248d9412fb" name="Changes" comment="add story: tam thon nhan gian">
-      <change beforePath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/index.html" afterDir="false" />
+    <list default="true" id="d90aa240-9b9f-49aa-bbf0-d7248d9412fb" name="Changes" comment="update index">
+      <change beforePath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/page_styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/truyen/tam-thon-nhan-gian/page_styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +66,7 @@
       <updated>1743742367327</updated>
       <workItem from="1743742368423" duration="238000" />
       <workItem from="1743742737350" duration="5678000" />
-      <workItem from="1744091084700" duration="411000" />
+      <workItem from="1744091084700" duration="579000" />
     </task>
     <task id="LOCAL-00001" summary="update project">
       <option name="closed" value="true" />
@@ -132,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744091390420</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="update index">
+      <option name="closed" value="true" />
+      <created>1744091519855</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1744091519855</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,8 +167,8 @@
     <MESSAGE value="finish screen recording UI" />
     <MESSAGE value="update recorder with system audio" />
     <MESSAGE value="qr code generator" />
-    <MESSAGE value="update index" />
     <MESSAGE value="add story: tam thon nhan gian" />
-    <option name="LAST_COMMIT_MESSAGE" value="add story: tam thon nhan gian" />
+    <MESSAGE value="update index" />
+    <option name="LAST_COMMIT_MESSAGE" value="update index" />
   </component>
 </project>
