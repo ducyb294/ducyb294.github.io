@@ -12,6 +12,7 @@ body {
     background-image: url(bg_dark.gif);
     background-repeat: repeat;
     color: rgba(255, 255, 255, 0.6);
+    padding: 100px 0 100px 0;
 }
 
 .nav-links {
