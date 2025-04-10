@@ -15,7 +15,7 @@ body {
   padding: 20px;
 }
 
-.nav-links {
+.nav-top, .nav-bottom {
   display: flex;
   justify-content: center;
   align-items: center;
