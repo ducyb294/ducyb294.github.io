@@ -1,3 +1,9 @@
+// Get current chapter from URL parameter
+function getCurrentChapter() {
+    const urlParams = new URLSearchParams(window.location.search);
+    return parseInt(urlParams.get('chuong')) || 1;
+}
+
 // Load header and footer
 document.addEventListener('DOMContentLoaded', function() {
     // Load header
@@ -15,6 +21,9 @@ document.addEventListener('DOMContentLoaded', function() {
             document.getElementById('footer-placeholder').innerHTML = data;
         });
 
+    // Load chapter content
+    loadChapterContent();
+    
     // Initialize reading settings
     initializeReadingSettings();
     
@@ -158,6 +167,116 @@ function loadSavedPreferences() {
     }
 }
 
+// Load chapter content from markdown file
+async function loadChapterContent() {
+    const currentChapter = getCurrentChapter();
+    
+    try {
+        // Load the markdown file
+        const response = await fetch(`data/${currentChapter}.md`);
+        if (!response.ok) {
+            throw new Error('Chapter not found');
+        }
+        
+        const text = await response.text();
+        
+        // Parse the markdown file
+        const lines = text.split('\n');
+        let title = '';
+        let content = '';
+        let isContent = false;
+        
+        for (const line of lines) {
+            if (line.startsWith('title:')) {
+                title = line.substring(6).trim();
+            } else if (line.startsWith('content:')) {
+                isContent = true;
+            } else if (isContent) {
+                content += line + '\n';
+            }
+        }
+        
+        // Update the page title
+        document.getElementById('chapter-title').textContent = title;
+        document.title = `${title} - Quang Âm Chi Ngoại - TruyenFull`;
+        
+        // Convert markdown to HTML and display
+        const htmlContent = marked.parse(content);
+        document.getElementById('chapter-content').innerHTML = htmlContent;
+        
+        // Update navigation
+        updateNavigation(currentChapter);
+        
+    } catch (error) {
+        console.error('Error loading chapter:', error);
+        document.getElementById('chapter-content').innerHTML = '<p>Không thể tải nội dung chương. Vui lòng thử lại sau.</p>';
+    }
+}
+
+// Update navigation buttons and selects
+async function updateNavigation(currentChapter) {
+    // Check total chapters available
+    let totalChapters = 1;
+    for (let i = 1; i <= 1000; i++) {
+        try {
+            const response = await fetch(`data/${i}.md`, { method: 'HEAD' });
+            if (!response.ok) break;
+            totalChapters = i;
+        } catch {
+            break;
+        }
+    }
+    
+    // Update chapter selects
+    const topSelect = document.getElementById('chapter-select-top');
+    const bottomSelect = document.getElementById('chapter-select-bottom');
+    
+    [topSelect, bottomSelect].forEach(select => {
+        select.innerHTML = '';
+        for (let i = 1; i <= totalChapters; i++) {
+            const option = document.createElement('option');
+            option.value = i;
+            option.textContent = `Chương ${i}`;
+            if (i === currentChapter) {
+                option.selected = true;
+            }
+            select.appendChild(option);
+        }
+    });
+    
+    // Update prev/next buttons
+    const prevBtns = [document.getElementById('prev-btn-top'), document.getElementById('prev-btn-bottom')];
+    const nextBtns = [document.getElementById('next-btn-top'), document.getElementById('next-btn-bottom')];
+    
+    prevBtns.forEach(btn => {
+        if (currentChapter > 1) {
+            btn.href = `?chuong=${currentChapter - 1}`;
+            btn.removeAttribute('disabled');
+            btn.style.opacity = '1';
+            btn.style.cursor = 'pointer';
+        } else {
+            btn.removeAttribute('href');
+            btn.setAttribute('disabled', 'disabled');
+            btn.style.opacity = '0.5';
+            btn.style.cursor = 'not-allowed';
+        }
+    });
+    
+    nextBtns.forEach(btn => {
+        if (currentChapter < totalChapters) {
+            btn.href = `?chuong=${currentChapter + 1}`;
+            btn.removeAttribute('disabled');
+            btn.style.opacity = '1';
+            btn.style.cursor = 'pointer';
+        } else {
+            btn.removeAttribute('href');
+            btn.setAttribute('disabled', 'disabled');
+            btn.style.opacity = '0.5';
+            btn.style.cursor = 'not-allowed';
+        }
+    });
+}
+
 // Initialize chapter navigation
 function initializeChapterNavigation() {
     // Sync chapter selects
@@ -179,27 +298,26 @@ function initializeChapterNavigation() {
 
 // Navigate to selected chapter
 function navigateToChapter(chapterNumber) {
-    // This is a simple implementation - you can modify based on your URL structure
-    window.location.href = `chuong-${chapterNumber}.html`;
+    window.location.href = `?chuong=${chapterNumber}`;
 }
 
 // Add keyboard shortcuts
 document.addEventListener('keydown', function(e) {
+    const currentChapter = getCurrentChapter();
+    
     // Left arrow - previous chapter
-    if (e.key === 'ArrowLeft') {
-        const prevBtn = document.querySelector('.nav-btn:not([disabled])');
-        if (prevBtn && prevBtn.textContent.includes('Chương trước')) {
-            prevBtn.click();
-        }
+    if (e.key === 'ArrowLeft' && currentChapter > 1) {
+        window.location.href = `?chuong=${currentChapter - 1}`;
     }
     
     // Right arrow - next chapter
     if (e.key === 'ArrowRight') {
-        const nextBtns = document.querySelectorAll('.nav-btn');
-        nextBtns.forEach(btn => {
-            if (btn.textContent.includes('Chương sau')) {
-                btn.click();
-            }
-        });
+        // Check if next chapter exists
+        fetch(`data/${currentChapter + 1}.md`, { method: 'HEAD' })
+            .then(response => {
+                if (response.ok) {
+                    window.location.href = `?chuong=${currentChapter + 1}`;
+                }
+            });
     }
 });
