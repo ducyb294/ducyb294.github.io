@@ -15,6 +15,10 @@ body {
   padding: 20px;
 }
 
+.chapter-content {
+  font-size: 20px;
+}
+
 .nav-top, .nav-bottom {
   display: flex;
   justify-content: center;
