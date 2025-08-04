@@ -7,10 +7,12 @@
 
 body {
     font-family: 'Roboto', Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.6;
-    color: #333;
-    background-color: #f5f5f5;
+    max-width: 900px;
+    font-size: 20px;
+    line-height: 1.8;
+    color: rgba(255, 255, 255, 0.6);
+    background-color: #232323;
+    background-image: url(bg_dark.gif);
 }
 
 .container {

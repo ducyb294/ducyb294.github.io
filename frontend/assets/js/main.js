@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
     initializeReadingSettings();
     
     // Initialize chapter navigation
-    initializeChapterNavigation();
+    // initializeChapterNavigation();
 });
 
 // Initialize header functionality
@@ -228,21 +228,7 @@ async function updateNavigation(currentChapter) {
     }
     
     // Update chapter selects
-    const topSelect = document.getElementById('chapter-select-top');
-    const bottomSelect = document.getElementById('chapter-select-bottom');
-    
-    [topSelect, bottomSelect].forEach(select => {
-        select.innerHTML = '';
-        for (let i = 1; i <= totalChapters; i++) {
-            const option = document.createElement('option');
-            option.value = i;
-            option.textContent = `Chương ${i}`;
-            if (i === currentChapter) {
-                option.selected = true;
-            }
-            select.appendChild(option);
-        }
-    });
+
     
     // Update prev/next buttons
     const prevBtns = [document.getElementById('prev-btn-top'), document.getElementById('prev-btn-bottom')];
@@ -278,23 +264,7 @@ async function updateNavigation(currentChapter) {
 }
 
 // Initialize chapter navigation
-function initializeChapterNavigation() {
-    // Sync chapter selects
-    const topSelect = document.getElementById('chapter-select-top');
-    const bottomSelect = document.getElementById('chapter-select-bottom');
-    
-    if (topSelect && bottomSelect) {
-        topSelect.addEventListener('change', function() {
-            bottomSelect.value = this.value;
-            navigateToChapter(this.value);
-        });
-        
-        bottomSelect.addEventListener('change', function() {
-            topSelect.value = this.value;
-            navigateToChapter(this.value);
-        });
-    }
-}
+
 
 // Navigate to selected chapter
 function navigateToChapter(chapterNumber) {
