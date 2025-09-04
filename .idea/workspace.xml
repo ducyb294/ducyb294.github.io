@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d90aa240-9b9f-49aa-bbf0-d7248d9412fb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/truyen/quang-am-chi-ngoai/data/1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.claude/settings.local.json" beforeDir="false" afterPath="$PROJECT_DIR$/.claude/settings.local.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Level_1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyen/quang-am-chi-ngoai/chuong-1.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +53,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/CODE/WEB/ducyb294.github.io",
+    "last_opened_file_path": "C:/xampp/htdocs",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -87,6 +86,7 @@
       <workItem from="1743742737350" duration="5678000" />
       <workItem from="1744091084700" duration="1770000" />
       <workItem from="1754321687493" duration="1332000" />
+      <workItem from="1756983032675" duration="428000" />
     </task>
     <task id="LOCAL-00001" summary="update project">
       <option name="closed" value="true" />

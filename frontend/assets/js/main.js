@@ -193,7 +193,12 @@ async function loadChapterContent() {
             } else if (line.startsWith('content:')) {
                 isContent = true;
             } else if (isContent) {
-                content += line + '\n';
+                // Chỉ thêm xuống dòng nếu dòng kết thúc bằng dấu chấm
+                if (line.trim().endsWith('.')) {
+                    content += line + '\n';
+                } else {
+                    content += line + ' ';
+                }
             }
         }
 

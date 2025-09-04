@@ -379,7 +379,7 @@ body.sepia-theme .chapter-wrapper {
     .header-wrapper {
         flex-wrap: wrap;
     }
-    
+
     .main-nav {
         display: none;
         position: absolute;
@@ -388,50 +388,50 @@ body.sepia-theme .chapter-wrapper {
         right: 0;
         background-color: #2c3e50;
     }
-    
+
     .main-nav.active {
         display: block;
     }
-    
+
     .nav-menu {
         flex-direction: column;
         gap: 0;
     }
-    
+
     .dropdown-menu {
         position: static;
         box-shadow: none;
         background-color: rgba(0,0,0,0.1);
     }
-    
+
     .header-search {
         width: 100%;
         margin-top: 10px;
     }
-    
+
     .search-input {
         flex: 1;
     }
-    
+
     .mobile-menu-toggle {
         display: block;
     }
-    
+
     .chapter-wrapper {
         padding: 20px;
         margin: 10px;
     }
-    
+
     .chapter-nav {
         flex-direction: column;
         gap: 15px;
     }
-    
+
     .settings-row {
         flex-direction: column;
         align-items: flex-start;
     }
-    
+
     .footer-content {
         grid-template-columns: 1fr;
     }

@@ -16,7 +16,7 @@ body {
 }
 
 .chapter-content {
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .nav-top, .nav-bottom {
@@ -25,20 +25,20 @@ body {
   align-items: center;
   text-align: center;
   color: rgba(255, 255, 255, 0.6);
-  font-size: 30px;
+  font-size: 50px;
 }
 
 a {
   color: rgba(255, 255, 255, 0.6);
-  font-size: 20px;
+  font-size: 50px;
   text-decoration: none;
   margin: 10px;
 }
 
 h1, h2 {
-  font-size: 30px;
+  font-size: 70px;
 }
 
 p {
-  font-size: 20px;
+  font-size: 30px;
 }
