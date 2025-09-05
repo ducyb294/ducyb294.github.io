@@ -16,7 +16,7 @@ body {
 }
 
 .chapter-content {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .nav-top, .nav-bottom {
@@ -30,7 +30,7 @@ body {
 
 a {
   color: rgba(255, 255, 255, 0.6);
-  font-size: 50px;
+  font-size: 30px;
   text-decoration: none;
   margin: 10px;
 }
@@ -40,5 +40,5 @@ h1, h2 {
 }
 
 p {
-  font-size: 30px;
+  font-size: 25px;
 }
